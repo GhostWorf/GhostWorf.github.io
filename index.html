@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>myblog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="myblog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="myblog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="myblog">
+  
+    <link rel="alternative" href="/atom.xml" title="myblog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    
+    
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          rootUrl: '/',
+          fancybox: true,
+          animate: true,
+          isHome: true,
+          isPost: false,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/" title="Hi Mate">ghost.worf</a></h1>
+        </hgroup>
+
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/https:/ghostworf.github.io">博客首页</a></li>
+                        
+                            <li><a href="/works">作品展示</a></li>
+                        
+                            <li><a href="/about">留言打卡</a></li>
+                        
+                            <li><a href="/FrontEndGuide">前端导航</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl mail" target="_blank" href="#" title="mail">mail</a>
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/GhostWorf/GhostWorf.github.io" title="github">github</a>
+                            
+                                <a class="fl zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="#" title="weibo">weibo</a>
+                            
+                                <a class="fl google" target="_blank" href="#" title="google">google</a>
+                            
+                                <a class="fl twitter" target="_blank" href="#" title="twitter">twitter</a>
+                            
+                                <a class="fl linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/ssh免密push/" style="font-size: 10px;">ssh免密push</a> <a href="/tags/技术/" style="font-size: 20px;">技术</a> <a href="/tags/日记/" style="font-size: 10px;">日记</a> <a href="/tags/概念/" style="font-size: 10px;">概念</a> <a href="/tags/生活/" style="font-size: 10px;">生活</a> <a href="/tags/生活记录/" style="font-size: 10px;">生活记录</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://GhostWorf.github.io/">name</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">伪军迷,伪sone,只为自由选择,君以诚心待我,我以真心待之.</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">ghost.worf</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="Me">ghost.worf</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/https:/ghostworf.github.io">博客首页</a></li>
+                
+                    <li><a href="/works">作品展示</a></li>
+                
+                    <li><a href="/about">留言打卡</a></li>
+                
+                    <li><a href="/FrontEndGuide">前端导航</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="mail" target="_blank" href="#" title="mail">mail</a>
+                    
+                        <a class="github" target="_blank" href="https://github.com/GhostWorf/GhostWorf.github.io" title="github">github</a>
+                    
+                        <a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+                    
+                        <a class="google" target="_blank" href="#" title="google">google</a>
+                    
+                        <a class="twitter" target="_blank" href="#" title="twitter">twitter</a>
+                    
+                        <a class="linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/07/14/hello-world/" class="article-date">
+      <time datetime="2017-07-14T03:39:58.262Z" itemprop="datePublished">2017-07-14</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/14/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-github-ssh-相关" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/14/github-ssh-相关/" class="article-date">
+      <time datetime="2016-07-14T11:53:52.000Z" itemprop="datePublished">2016-07-14</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/14/github-ssh-相关/">github ssh 相关</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="这一次我准备将我的hexoblog与github远程仓库相衔接-但是我忘掉了一些关键的问题结果-没有成功"><a href="#这一次我准备将我的hexoblog与github远程仓库相衔接-但是我忘掉了一些关键的问题结果-没有成功" class="headerlink" title="这一次我准备将我的hexoblog与github远程仓库相衔接,但是我忘掉了一些关键的问题结果,没有成功"></a>这一次我准备将我的hexoblog与github远程仓库相衔接,但是我忘掉了一些关键的问题结果,没有成功</h3><h4 id="1-ssh公钥免密-我们需要在git或者npm中键入-ssh-keygen-t-rsa-之后会在你的界面上生成Enter-file-in-which-to-save-the-key-c-Users-Administrator-ssh-id-rsa"><a href="#1-ssh公钥免密-我们需要在git或者npm中键入-ssh-keygen-t-rsa-之后会在你的界面上生成Enter-file-in-which-to-save-the-key-c-Users-Administrator-ssh-id-rsa" class="headerlink" title="1.ssh公钥免密 我们需要在git或者npm中键入 ssh-keygen -t rsa,之后会在你的界面上生成Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa):"></a>1.ssh公钥免密 我们需要在git或者npm中键入 ssh-keygen -t rsa,之后会在你的界面上生成Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa):</h4><p>/c/Users/Administrator/.ssh/id_rsa already exists.,然后敲击回车,一路执行回车,然后会先界面上形成一种冒泡泡的的内容,这表示成功了.</p>
+<h3 id="记住-c-Users-“电脑用户名”-ssh-id-rsa-这是你公钥文件的所在路径-找到id-rsa-pnb文件-将其内容复制"><a href="#记住-c-Users-“电脑用户名”-ssh-id-rsa-这是你公钥文件的所在路径-找到id-rsa-pnb文件-将其内容复制" class="headerlink" title="记住 (/c/Users/“电脑用户名”/.ssh/id_rsa),这是你公钥文件的所在路径,找到id_rsa.pnb文件,将其内容复制"></a>记住 (/c/Users/“电脑用户名”/.ssh/id_rsa),这是你公钥文件的所在路径,找到id_rsa.pnb文件,将其内容复制</h3><h3 id="然后登陆你的github账号-点击你的头像-点击settings选项-进入后点击sshandgpgkey-然后点击newsshkey新建在key文件输入框中输入你之前复制好的公钥-然后就ok-记住title不要填任何东西"><a href="#然后登陆你的github账号-点击你的头像-点击settings选项-进入后点击sshandgpgkey-然后点击newsshkey新建在key文件输入框中输入你之前复制好的公钥-然后就ok-记住title不要填任何东西" class="headerlink" title="然后登陆你的github账号,点击你的头像,点击settings选项,进入后点击sshandgpgkey,然后点击newsshkey新建在key文件输入框中输入你之前复制好的公钥. 然后就ok,记住title不要填任何东西."></a>然后登陆你的github账号,点击你的头像,点击settings选项,进入后点击sshandgpgkey,然后点击newsshkey新建在key文件输入框中输入你之前复制好的公钥. 然后就ok,记住title不要填任何东西.</h3>
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/javascript/">javascript</a><a class="article-category-link" href="/categories/javascript/web/">web</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh免密push/">ssh免密push</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/技术/">技术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活记录/">生活记录</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-模块化相关" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/02/12/模块化相关/" class="article-date">
+      <time datetime="2016-02-12T08:04:24.000Z" itemprop="datePublished">2016-02-12</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/02/12/模块化相关/">模块化相关</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h2><h4 id="这些天接触到了模块化这一个概念-提到模块化-让我这个伪军迷想到了老美的scar步枪"><a href="#这些天接触到了模块化这一个概念-提到模块化-让我这个伪军迷想到了老美的scar步枪" class="headerlink" title="这些天接触到了模块化这一个概念,提到模块化,让我这个伪军迷想到了老美的scar步枪"></a>这些天接触到了模块化这一个概念,提到模块化,让我这个伪军迷想到了老美的scar步枪</h4><h3 id="scar"><a href="#scar" class="headerlink" title="scar"></a>scar</h3><h4 id="SOF-Combat-Assault-Rifle是Fabrique-Nationale（FNH）制造的现代步枪为了满足美军特战司令部（US-SOCOM的SCAR标案而制造，此枪族有两种主要版，一种是使用5-56-NATO的SCAR-L（轻型版），和使用7-62-NATO的SCAR-H（重型版），两种都可以改装成“狙击型态”或“近战型态”（Close-Quarters-Combat）-他各个部件都采用模块化设计-在原枪体基础上通过更改各个零部件来达到使用不同弹药或者发挥出不同枪种的功效的设计-那么联想到我们js中的模块化设计呢"><a href="#SOF-Combat-Assault-Rifle是Fabrique-Nationale（FNH）制造的现代步枪为了满足美军特战司令部（US-SOCOM的SCAR标案而制造，此枪族有两种主要版，一种是使用5-56-NATO的SCAR-L（轻型版），和使用7-62-NATO的SCAR-H（重型版），两种都可以改装成“狙击型态”或“近战型态”（Close-Quarters-Combat）-他各个部件都采用模块化设计-在原枪体基础上通过更改各个零部件来达到使用不同弹药或者发挥出不同枪种的功效的设计-那么联想到我们js中的模块化设计呢" class="headerlink" title="SOF Combat Assault Rifle是Fabrique Nationale（FNH）制造的现代步枪为了满足美军特战司令部（US SOCOM的SCAR标案而制造，此枪族有两种主要版，一种是使用5.56 NATO的SCAR-L（轻型版），和使用7.62 NATO的SCAR-H（重型版），两种都可以改装成“狙击型态”或“近战型态”（Close Quarters Combat）,他各个部件都采用模块化设计,在原枪体基础上通过更改各个零部件来达到使用不同弹药或者发挥出不同枪种的功效的设计,那么联想到我们js中的模块化设计呢"></a>SOF Combat Assault Rifle是Fabrique Nationale（FNH）制造的现代步枪为了满足美军特战司令部（US SOCOM的SCAR标案而制造，此枪族有两种主要版，一种是使用5.56 NATO的SCAR-L（轻型版），和使用7.62 NATO的SCAR-H（重型版），两种都可以改装成“狙击型态”或“近战型态”（Close Quarters Combat）,他各个部件都采用模块化设计,在原枪体基础上通过更改各个零部件来达到使用不同弹药或者发挥出不同枪种的功效的设计,那么联想到我们js中的模块化设计呢</h4><h4 id="我们js中的模块化设计依托于require-js和jquery来生效-目前的模块化我能得到的信息是-AMD和CMD-还有配置文件-定义模块-页面引用模块"><a href="#我们js中的模块化设计依托于require-js和jquery来生效-目前的模块化我能得到的信息是-AMD和CMD-还有配置文件-定义模块-页面引用模块" class="headerlink" title="我们js中的模块化设计依托于require.js和jquery来生效.目前的模块化我能得到的信息是,AMD和CMD,还有配置文件,定义模块,页面引用模块;"></a>我们js中的模块化设计依托于require.js和jquery来生效.目前的模块化我能得到的信息是,AMD和CMD,还有配置文件,定义模块,页面引用模块;</h4><h3 id="AMD"><a href="#AMD" class="headerlink" title="AMD"></a>AMD</h3><h4 id="尽早将所有的模块全部加载进来"><a href="#尽早将所有的模块全部加载进来" class="headerlink" title="尽早将所有的模块全部加载进来"></a>尽早将所有的模块全部加载进来</h4><h3 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h3><h4 id="用到之的时候再加载"><a href="#用到之的时候再加载" class="headerlink" title="用到之的时候再加载"></a>用到之的时候再加载</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">     <span class="built_in">require</span>.config(&#123;</div><div class="line">    <span class="comment">//所有模块的路径查找，都会以这个baseUrl指定的路径为基础</span></div><div class="line">    <span class="comment">//一般情况下就是找所有模块都能够共享的目录，作为baseUrl</span></div><div class="line">    baseUrl: <span class="string">""</span>,</div><div class="line">    <span class="comment">//paths属性可以为每一个模块配置别名</span></div><div class="line">    <span class="comment">//以后在使用模块的时候，不需要再去写那么长的真实路径了，而直接使用别名即可</span></div><div class="line">    paths: &#123;</div><div class="line">        <span class="comment">//键： 别名名称</span></div><div class="line">        <span class="comment">//值： 真实的模块路径</span></div><div class="line">        <span class="string">"xm"</span>: <span class="string">"modules1/modules2/modules3/moduleXM"</span> </div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">define([<span class="string">"依赖项1"</span>,<span class="string">"依赖项2"</span>...<span class="string">"依赖项N"</span>], <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line"> <span class="comment">//模块的功能代码</span></div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<h4 id="如果定义一个模块的时候，这个模块要依赖于其他模块来实现，那么我们需要给这个模块指定依赖项"><a href="#如果定义一个模块的时候，这个模块要依赖于其他模块来实现，那么我们需要给这个模块指定依赖项" class="headerlink" title="如果定义一个模块的时候，这个模块要依赖于其他模块来实现，那么我们需要给这个模块指定依赖项"></a>如果定义一个模块的时候，这个模块要依赖于其他模块来实现，那么我们需要给这个模块指定依赖项</h4><h4 id="如果模块的依赖项有给模块提供内容使用，那么需要在当前模块的回调函数中添加形参来接收依赖项模块的返回值，这里的形参和依赖项是一一对应的，如果存在好多依赖项，有的依赖项有产出，有的没有，那我们一般会将所有有产出的依赖项放在前面，没有的放在后面，这样可以省略掉没有产出模块的形参"><a href="#如果模块的依赖项有给模块提供内容使用，那么需要在当前模块的回调函数中添加形参来接收依赖项模块的返回值，这里的形参和依赖项是一一对应的，如果存在好多依赖项，有的依赖项有产出，有的没有，那我们一般会将所有有产出的依赖项放在前面，没有的放在后面，这样可以省略掉没有产出模块的形参" class="headerlink" title="如果模块的依赖项有给模块提供内容使用，那么需要在当前模块的回调函数中添加形参来接收依赖项模块的返回值，这里的形参和依赖项是一一对应的，如果存在好多依赖项，有的依赖项有产出，有的没有，那我们一般会将所有有产出的依赖项放在前面，没有的放在后面，这样可以省略掉没有产出模块的形参"></a>如果模块的依赖项有给模块提供内容使用，那么需要在当前模块的回调函数中添加形参来接收依赖项模块的返回值，这里的形参和依赖项是一一对应的，如果存在好多依赖项，有的依赖项有产出，有的没有，那我们一般会将所有有产出的依赖项放在前面，没有的放在后面，这样可以省略掉没有产出模块的形参</h4><h3 id="页面引用模块"><a href="#页面引用模块" class="headerlink" title="页面引用模块"></a>页面引用模块</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">require</span>([<span class="string">"模块名称"</span>]);</div></pre></td></tr></table></figure>
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/javascript/">javascript</a><a class="article-category-link" href="/categories/javascript/web/">web</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/技术/">技术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/概念/">概念</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-我的" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/08/18/我的/" class="article-date">
+      <time datetime="2015-08-18T06:16:42.000Z" itemprop="datePublished">2015-08-18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/08/18/我的/">我的</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="你好-前端"><a href="#你好-前端" class="headerlink" title="你好,前端"></a>你好,前端</h2>
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/javascript/">javascript</a><a class="article-category-link" href="/categories/javascript/web/">web</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日记/">日记</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2017 ghost.worf
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >凡尘到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 24;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+
+  </div>
+</body>
+</html>
